@@ -66,7 +66,7 @@ Caja de Linea
 Caja de Bloque
  - Ocupan todo el ancho disponible, lo que genera saltos de linea
  - Tienen dimensiones modificables(alto, ancho)
- - No permiten otros elementos a su lado (aunque especifique un ancho, diguen ocupando todo el espacio disponible a lo ancho, generando saltos de linea)
+ - No permiten otros elementos a su lado (aunque especifique un ancho, siguen ocupando todo el espacio disponible a lo ancho, generando saltos de linea)
 */
 
 .caja-linea,
