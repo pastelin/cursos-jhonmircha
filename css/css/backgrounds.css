@@ -25,11 +25,11 @@
 }
 
 .bg-image {
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 }
 
 .bg-size {
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-size: 300px 200px;
 	background-size: 300px;
 	background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 .bg-repeat {
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-size: 300px;
 	background-repeat: repeat;
 	background-repeat: repeat-x;
@@ -47,7 +47,7 @@
 
 .bg-position {
 	background-color: skyblue;
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: 10px 20px;
@@ -67,19 +67,21 @@
 
 .bg-clip {
 	background-color: skyblue;
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-size: 200px;
+    height: 400px;
+    width: 1000px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-clip: padding-box;
-	background-clip: border-box; /* Default */
 	background-clip: content-box;
-	padding: 1rem;
+	background-clip: border-box; /* Default */
+	/* padding: 1rem; */
 }
 
 .bg-origin {
 	background-color: skyblue;
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-size: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -91,7 +93,7 @@
 
 .bg-attachment {
 	background-color: skyblue;
-	border-image: url('../assets/puesta-sol.jpg');
+	background-image: url('../assets/puesta-sol.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
