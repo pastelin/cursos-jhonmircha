@@ -682,7 +682,7 @@ body {
 
 /*  */
 
-.off-canvas-menu {
+.off-canvas-menu { 
 	position: fixed;
 	top: 0;
 	left: 0;
