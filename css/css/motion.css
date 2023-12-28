@@ -506,13 +506,13 @@ body {
 	position: relative;
 	border: none;
 	border-radius: 0.25rem;
-	padding: 0.2rem;
+	padding: 0.2rem; 
 	width: 15rem;
 	height: 2.5rem;
 	font-size: 1rem;
 	font-weight: bold;
 	cursor: pointer;
-	overflow: hidden;
+	overflow: hidden; 
 	box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.15);
 }
 
@@ -682,7 +682,7 @@ body {
 
 /*  */
 
-.off-canvas-menu {
+.off-canvas-menu { 
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -732,7 +732,7 @@ body {
 
 /* Ventana Modal */
 .modal {
-    position: fixed;
+    position: fixed; 
 	top: 0;
 	left: 0;
 	bottom: 0;
