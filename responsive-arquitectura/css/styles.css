@@ -106,14 +106,14 @@ iframe {
 	}
 }
 
-@media screen and (prefers-color-schema: light) {
+@media screen and (prefers-color-scheme: light) {
 	html {
 		background-color: white;
 		color: rgb(0, 0, 139);
 	}
 }
 
-@media screen and (prefers-color-schema: no-preference) {
+@media screen and (prefers-color-scheme: no-preference) {
 	html {
 		background-color: white;
 		color: rgb(139, 0, 0);
@@ -138,7 +138,7 @@ iframe {
 }
 
 /* 
-    * En Desktop First se usa max-width que significa lo mínimo, del valor dado hacia arriba
+    * En Desktop First se usa max-width que significa lo máximo, del valor dado hacia abajo
     
 */
 @media screen and (max-width: 1024px) {
